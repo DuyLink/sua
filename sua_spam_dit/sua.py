@@ -10,7 +10,7 @@ with open('settings.json') as file:
     data = json.load(file)
     channel = data["channel"]
     sucvat = data["sucvat"]
-    token - os.getenv('TOKEN')
+    token = os.getenv('TOKEN')
     
 def sendTime():
     timeSend = datetime.datetime.now(tz=pytz.timezone("Asia/Bangkok"))
